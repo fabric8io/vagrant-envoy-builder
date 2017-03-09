@@ -1,0 +1,13 @@
+= EnvoyBuilder
+
+The packer based build for building https://github.com/lyft/envoy[lyft] envoy builder image for CentOS platform.  This builds
+the base builder image, which can then be used with envoy sources to pefrom the binary build of
+envoy
+
+== Using this image
+
+You can use this image as part of an of your vagrant file by specifying the base url of the box to be `kameshsampath/envoybuilder-centos7`
+
+=== Example Virtual Box
+
+=== Example Qemu
